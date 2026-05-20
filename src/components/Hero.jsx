@@ -103,7 +103,7 @@ const Hero = () => {
 
     {/* Scrolling Marquee Ticker */}
     <div className="relative overflow-hidden bg-gradient-to-r from-sky-600 via-sky-500 to-sky-600 py-3 sm:py-4 border-y border-sky-400/30 shadow-lg z-20">
-      <div className="flex animate-marquee whitespace-nowrap">
+      <div className="flex animate-marquee whitespace-nowrap w-max">
         {[...Array(2)].map((_, setIdx) => (
           <div key={setIdx} className="flex items-center shrink-0">
             {[
