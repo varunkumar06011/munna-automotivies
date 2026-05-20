@@ -74,10 +74,15 @@ const Emergency = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.3 }}
+                className="flex flex-wrap gap-4 justify-center lg:justify-start"
               >
-                <a href="tel:+917377766777" className="inline-flex items-center justify-center gap-3 bg-white text-slate-900 font-bold text-lg px-8 py-4 rounded-full hover:bg-sky-50 transition-colors shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] group">
-                  <PhoneCall size={24} className="text-red-500 group-hover:animate-pulse" />
-                  Call Emergency: +91 73777 66777
+                <a href="tel:+917377766777" className="inline-flex items-center justify-center gap-3 bg-white text-slate-900 font-bold text-base sm:text-lg px-6 py-4 rounded-full hover:bg-sky-50 transition-colors shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] group">
+                  <PhoneCall size={22} className="text-red-500 group-hover:animate-pulse" />
+                  Call: +91 73777 66777
+                </a>
+                <a href="tel:+918686398707" className="inline-flex items-center justify-center gap-3 bg-white text-slate-900 font-bold text-base sm:text-lg px-6 py-4 rounded-full hover:bg-sky-50 transition-colors shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] group">
+                  <PhoneCall size={22} className="text-red-500 group-hover:animate-pulse" />
+                  Call: +91 86863 98707
                 </a>
               </motion.div>
             </div>

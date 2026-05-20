@@ -96,13 +96,22 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a
-              href="tel:+917377766777"
-              className="flex items-center gap-2 text-accent-blue font-semibold text-lg py-2"
-            >
-              <Phone size={20} />
-              +91 73777 66777
-            </a>
+            <div className="flex flex-col gap-2 py-2">
+              <a
+                href="tel:+917377766777"
+                className="flex items-center gap-2 text-accent-blue font-semibold text-lg"
+              >
+                <Phone size={20} />
+                +91 73777 66777
+              </a>
+              <a
+                href="tel:+918686398707"
+                className="flex items-center gap-2 text-accent-blue font-semibold text-lg"
+              >
+                <Phone size={20} />
+                +91 86863 98707
+              </a>
+            </div>
           </div>
         </motion.div>
       )}

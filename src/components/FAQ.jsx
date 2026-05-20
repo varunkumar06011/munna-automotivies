@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "How can I get doorstep car repair service in Palnadu?",
-    a: "Our team provides doorstep mechanic services for minor repairs within Palnadu and nearby areas. For battery dead roadside assistance, jumpstart service, or quick diagnostics, call us at +91 73777 66777 and our trained technician will be dispatched to your location."
+    a: "Our team provides doorstep mechanic services for minor repairs within Palnadu and nearby areas. For battery dead roadside assistance, jumpstart service, or quick diagnostics, call us at +91 73777 66777 or +91 86863 98707 and our trained technician will be dispatched to your location."
   }
 ];
 
@@ -70,7 +70,7 @@ const FAQ = () => {
             transition={{ delay: 0.2 }}
             className="text-slate-600 max-w-2xl mx-auto text-base sm:text-lg"
           >
-            Everything you need to know about our automobile services in Palnadu, Andhra Pradesh. Can't find your answer? Call us at +91 73777 66777.
+            Everything you need to know about our automobile services in Palnadu, Andhra Pradesh. Can't find your answer? Call us at +91 73777 66777 or +91 86863 98707.
           </motion.p>
         </div>
 
