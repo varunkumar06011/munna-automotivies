@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail, Clock, Globe, MessageCircle, Share2 } from 'lucide
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 pt-20 pb-10 border-t border-sky-900 relative overflow-hidden">
+    <footer id="contact" className="bg-slate-900 pt-20 pb-10 border-t border-sky-900 relative overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute right-0 bottom-0 w-[500px] h-[500px] bg-accent-blue/5 rounded-full blur-[100px] pointer-events-none translate-x-1/3 translate-y-1/3"></div>
 
@@ -70,9 +70,12 @@ const Footer = () => {
                   Palnadu District, Andhra Pradesh, India
                 </a>
               </li>
-              <li className="flex items-center gap-3 text-slate-400">
-                <Phone className="text-accent-blue shrink-0" size={20} />
-                <a href="tel:+917377766777" className="hover:text-white transition-colors">+91 73777 66777</a>
+              <li className="flex items-start gap-3 text-slate-400">
+                <Phone className="text-accent-blue shrink-0 mt-1" size={20} />
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+917377766777" className="hover:text-white transition-colors font-medium">+91 73777 66777</a>
+                  <a href="tel:+918686398707" className="hover:text-white transition-colors font-medium">+91 86863 98707</a>
+                </div>
               </li>
               <li className="flex items-center gap-3 text-slate-400">
                 <Mail className="text-accent-blue shrink-0" size={20} />
